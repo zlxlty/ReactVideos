@@ -3,7 +3,7 @@
  * @Description: 
  * @Date: 2021-07-26 13:51:58
  * @LastEditors: Tianyi Lu
- * @LastEditTime: 2021-07-28 20:35:56
+ * @LastEditTime: 2021-07-31 20:14:33
  */
 
 import React, { useState } from 'react';
@@ -25,7 +25,7 @@ const SearchBar = (props) => {
     <div className="search-bar ui segment">
       <form className="ui form" onSubmit={onFormSubmit}>
         <div className="field">
-          <label>Video Search</label>
+          <label>Search for Videos</label>
           <input 
             type="text"
             value={term}
